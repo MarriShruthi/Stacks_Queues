@@ -40,7 +40,6 @@ namespace StacksAndQueues
                 Console.Write(temp.data + " ");
                 temp = temp.next;
             }
-            Console.WriteLine();
         }
 
         /// <summary>
@@ -53,7 +52,7 @@ namespace StacksAndQueues
                 Console.WriteLine("Stack is empty!!!");
                 return;
             }
-            Console.WriteLine("{0} is a TOP element of the stack ", this.top.data);
+            Console.WriteLine("{0} is a TOP elements of the stack ", this.top.data);
         }
 
         /// <summary>
@@ -66,7 +65,7 @@ namespace StacksAndQueues
                 Console.WriteLine("Stack is empty...You can not delete.(Underflow condition)");
                 return;
             }
-            Console.WriteLine("Element popped is {0} ", this.top.data);
+            Console.WriteLine("Elements popped is {0} ", this.top.data);
             this.top = this.top.next;
         }
 

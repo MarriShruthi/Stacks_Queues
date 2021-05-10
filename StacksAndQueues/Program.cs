@@ -12,7 +12,7 @@ namespace StacksAndQueues
         {
             Console.WriteLine("Welcome To Stack and Queues");
             Stacks stacks = new Stacks();
-
+    
             stacks.Push(70);
             stacks.Push(30);
             stacks.Push(56);
@@ -24,6 +24,15 @@ namespace StacksAndQueues
             //pop the top one
             stacks.Pop();
             stacks.IsEmpty();
+            Console.WriteLine();
+
+            Console.WriteLine("WELCOME TO QUEUES");
+            //Creating object for Queue()
+            Queue queue = new Queue();
+            queue.Enqueue(44);
+            queue.Enqueue(33);
+            queue.Enqueue(23);
+            queue.DisplayQueue();
             Console.ReadLine();
         }
     }
