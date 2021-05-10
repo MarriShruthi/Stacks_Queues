@@ -33,6 +33,12 @@ namespace StacksAndQueues
             queue.Enqueue(33);
             queue.Enqueue(23);
             queue.DisplayQueue();
+            //Peeking out the first entered value
+          //queue.QueuePeek();
+            //poping out the frist value
+            queue.Dequeue();
+            //Removing all elements
+          //queue.IsEmptyQueue();
             Console.ReadLine();
         }
     }
