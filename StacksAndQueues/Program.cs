@@ -11,12 +11,19 @@ namespace StacksAndQueues
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Stack and Queues");
-            Console.WriteLine("Stack Program");
             Stacks stacks = new Stacks();
+
             stacks.Push(70);
             stacks.Push(30);
             stacks.Push(56);
+
             stacks.Display();
+
+            //Peek the Top one
+            stacks.Peek();
+            //pop the top one
+            stacks.Pop();
+            stacks.IsEmpty();
             Console.ReadLine();
         }
     }
